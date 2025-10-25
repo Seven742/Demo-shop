@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seven Store</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" >
 </head>
 <body>
   <div class="container-fluid bg-light">
@@ -14,7 +14,7 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><strong><i class="fa-solid fa-laptop"></i> Seven Store</strong></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" ="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button> 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -51,7 +51,7 @@
         </li>
       </ul>
       <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <input class="form-control me-2" type="search" placeholder="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>
@@ -59,8 +59,7 @@
 </nav>
   </div>
     </div>
-
-      <div class="container">
+    <div class="container">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -82,181 +81,184 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-       </div>
-    
+</div>
     <a name="Laptop">
     <a name="Desktop">
- <section class="cart-container" aria-label="Shopping Cart Items">
-    <article class="cart-item" role="group" aria-labelledby="product-1-title">
+ <section class="cart-container" >
+    <article class="cart-item" role="group" ledby="product-1-title">
       <div class="item-image">
-        <img src="asus-rog-strix-18-g835lw-sa033w-18intel-u932gb1tbrtx5080.jpg" alt="" />
+        <img src="/image/asus-rog-strix-18-g835lw-sa033w-18intel-u932gb1tbrtx5080.jpg" alt="" />
       </div>
       <div class="item-details">
         <h2 class="item-title" id="product-1-title">ASUS ROG STRIX SCAR 18 G835LW</h2>
-        <div class="item-price" aria-label="Price $1599.99">$3099.00</div>
-        <button class="btn-add" type="button" aria-describedby="product-1-title">
+        <div class="item-price">$3099.00</div>
+        <button class="btn-add" type="button" aria-describedby="product-1-title" data-bs-toggle="modal" data-bs-target="#cartModal">
           <span class="material-icons" aria-hidden="true"></span>
           Add to Cart
         </button>
       </div>
     </article>
 
-    <article class="cart-item" role="group" aria-labelledby="product-2-title">
+    <article class="cart-item" role="group" ledby="product-2-title">
       <div class="item-image">
-        <img src="e9dfcfd4-1a74-411b-a43a-366c20bda579.png" alt="" />
+        <img src="/image/e9dfcfd4-1a74-411b-a43a-366c20bda579.png" alt="" />
       </div>
       <div class="item-details">
         <h2 class="item-title" id="product-2-title">Ultrabook Air 13</h2>
-        <div class="item-price" aria-label="Price $1299.00">$1,299.00</div>
-        <button class="btn-add" type="button" aria-describedby="product-2-title">
+        <div class="item-price" >$1,299.00</div>
+        <button class="btn-add" type="button" aria-describedby="product-2-title" data-bs-toggle="modal" data-bs-target="#cartModal">
           <span class="material-icons" aria-hidden="true"></span>
           Add to Cart
         </button>
       </div>
     </article>
 
-    <article class="cart-item" role="group" aria-labelledby="product-3-title">
+    <article class="cart-item" role="group" ledby="product-3-title">
       <div class="item-image">
-        <img src="65ae3fe2afb930523051734e-lenovo-thinkbook-16-gen-6-amd-laptop.jpg" alt="" />
+        <img src="/image/65ae3fe2afb930523051734e-lenovo-thinkbook-16-gen-6-amd-laptop.jpg" alt="" />
       </div>
       <div class="item-details">
         <h2 class="item-title" id="product-3-title">laptop lenovo thinkbook 16</h2>
-        <div class="item-price" aria-label="Price $1799.50">$829.00</div>
-        <button class="btn-add" type="button" aria-describedby="product-3-title">
+        <div class="item-price">$829.00</div>
+        <button class="btn-add" type="button" aria-describedby="product-3-title" data-bs-toggle="modal" data-bs-target="#cartModal">
           <span class="material-icons" aria-hidden="true"></span>
           Add to Cart
         </button>
       </div>
     </article>
 
-    <article class="cart-item" role="group" aria-labelledby="product-4-title">
+    <article class="cart-item" role="group" ledby="product-4-title">
       <div class="item-image">
-        <img src="1-4.jpg" alt="Convertible laptop with touchscreen and stylus support" />
+        <img src="/image/1-4.jpg" alt="Convertible laptop with touchscreen and stylus support" />
       </div>
       <div class="item-details">
         <h2 class="item-title" id="product-4-title">ROG ZEPHYRUS 16 GU605CM</h2>
-        <div class="item-price" aria-label="Price $1399.99">$2099.00</div>
-        <button class="btn-add" type="button" aria-describedby="product-4-title">
+        <div class="item-price" >$2099.00</div>
+        <button class="btn-add" type="button" aria-describedby="product-4-title" data-bs-toggle="modal" data-bs-target="#cartModal">
           <span class="material-icons" aria-hidden="true"></span>
           Add to Cart
         </button>
       </div>
     </article>
 
-    <article class="cart-item" role="group" aria-labelledby="product-5-title">
+    <article class="cart-item" role="group" ledby="product-5-title">
       <div class="item-image">
-        <img src="text_ng_n_24__3_26.webp" alt="" />
+        <img src="/image/text_ng_n_24__3_26.webp" alt="" />
       </div>
       <div class="item-details">
         <h2 class="item-title" id="product-5-title">ASUS VivoBook Gaming X16 K3605ZC</h2>
-        <div class="item-price" aria-label="Price $2299.99">$619.00</div>
-        <button class="btn-add" type="button" aria-describedby="product-5-title">
+        <div class="item-price" >$619.00</div>
+        <button class="btn-add" type="button" aria-describedby="product-5-title" data-bs-toggle="modal" data-bs-target="#cartModal">
           <span class="material-icons" aria-hidden="true"></span>
           Add to Cart
         </button>
       </div>
     </article>
 
-    <article class="cart-item" role="group" aria-labelledby="product-6-title">
+    <article class="cart-item" role="group" ledby="product-6-title">
       <div class="item-image">
-        <img src="Cyborg-15-A13VX-rgb_1.webp" alt="" />
+        <img src="/image/Cyborg-15-A13VX-rgb_1.webp" alt="" />
       </div>
       <div class="item-details">
         <h2 class="item-title" id="product-6-title">MSI CYBORG 15 A13VEK</h2>
-        <div class="item-price" aria-label="Price $1399.00">$999.00</div>
-        <button class="btn-add" type="button" aria-describedby="product-6-title">
+        <div class="item-price" >$999.00</div>
+        <button class="btn-add" type="button" aria-describedby="product-6-title" data-bs-toggle="modal" data-bs-target="#cartModal">
           <span class="material-icons" aria-hidden="true"></span>
           Add to Cart
         </button>
       </div>
     </article>
 
-    <article class="cart-item" role="group" aria-labelledby="product-7-title">
+    <article class="cart-item" role="group" ledby="product-7-title">
       <div class="item-image">
-        <img src="msi_crosshair_a16_hx_16_240hz_qhd_gaming_laptop_ryzen_9_7945hx_16gb_1tb_rtx5060_w11h_ac86126_29362.webp" alt="" />
+        <img src="/image/msi_crosshair_a16_hx_16_240hz_qhd_gaming_laptop_ryzen_9_7945hx_16gb_1tb_rtx5060_w11h_ac86126_29362.webp" alt="" />
       </div>
       <div class="item-details">
         <h2 class="item-title" id="product-7-title">MSI CROSSHAIR A18 HX A8WFKG</h2>
-        <div class="item-price" aria-label="Price $699.99">$1749.00</div>
-        <button class="btn-add" type="button" aria-describedby="product-7-title">
+        <div class="item-price" >$1749.00</div>
+        <button class="btn-add" type="button" aria-describedby="product-7-title" data-bs-toggle="modal" data-bs-target="#cartModal">
           <span class="material-icons" aria-hidden="true"></span>
           Add to Cart
         </button>
       </div>
     </article>
 
-    <article class="cart-item" role="group" aria-labelledby="product-8-title">
+    <article class="cart-item" role="group" ledby="product-8-title">
       <div class="item-image">
-        <img src="AwLCrBI7LA1351rNWhsojOeWNKekhOKHT8pxCIJB.jpeg" alt="Workstation-class laptop with powerful specs and multiple ports" />
+        <img src="/image/AwLCrBI7LA1351rNWhsojOeWNKekhOKHT8pxCIJB.jpeg" alt="Workstation-class laptop with powerful specs and multiple ports" />
       </div>
       <div class="item-details">
         <h2 class="item-title" id="product-8-title">LENOVO LOQ 15IAX9-E</h2>
-        <div class="item-price" aria-label="Price $2499.00">$899.00</div>
-        <button class="btn-add" type="button" aria-describedby="product-8-title">
+        <div class="item-price">$899.00</div>
+        <button class="btn-add" type="button" aria-describedby="product-8-title" data-bs-toggle="modal" data-bs-target="#cartModal">
           <span class="material-icons" aria-hidden="true"></span>
           Add to Cart
         </button>
       </div>
     </article>
 
-    <article class="cart-item" role="group" aria-labelledby="product-9-title">
+    <article class="cart-item" role="group" ledby="product-9-title">
       <div class="item-image">
-        <img src="OTE2YTcwOG-500x500.jpg" alt="" />
+        <img src="/image/OTE2YTcwOG-500x500.jpg" alt="" />
       </div>
       <div class="item-details">
         <h2 class="item-title" id="product-9-title">ASUS TUF A15 FA507NUR 2025</h2>
-        <div class="item-price" aria-label="Price $1199.50">$9999.00</div>
-        <button class="btn-add" type="button" aria-describedby="product-9-title">
+        <div class="item-price">$9999.00</div>
+        <button class="btn-add" type="button" aria-describedby="product-9-title" data-bs-toggle="modal" data-bs-target="#cartModal">
           <span class="material-icons" aria-hidden="true"></span>
           Add to Cart
         </button>
       </div>
     </article>
 
-    <article class="cart-item" role="group" aria-labelledby="product-10-title">
+    <article class="cart-item" role="group" ledby="product-10-title">
       <div class="item-image">
-        <img src="AW_m15_R6_front-png-q82-w480-h.webp" alt="" />
+        <img src="/image/AW_m15_R6_front-png-q82-w480-h.webp" alt="" />
       </div>
       <div class="item-details">
         <h2 class="item-title" id="product-10-title">Alienware M15 R6 Gaming Laptop</h2>
-        <div class="item-price" aria-label="Price $849.00">$3500.00</div>
-        <button class="btn-add" type="button" aria-describedby="product-10-title">
+        <div class="item-price" >$3500.00</div>
+        <button class="btn-add" type="button" aria-describedby="product-10-title" data-bs-toggle="modal" data-bs-target="#cartModal">
           <span class="material-icons" aria-hidden="true"></span>
           Add to Cart
         </button>
       </div>
     </article>
 
-    <article class="cart-item" role="group" aria-labelledby="product-11-title">
+    <article class="cart-item" role="group" ledby="product-11-title">
       <div class="item-image">
-        <img src="MacBook_Pro_16-inch_M4_Pro_or_Max_chip_Silver_PDP_Image_Position_1__COES.webp" alt="Premium ultrabook with retina display and powerful processor" />
+        <img src="/image/MacBook_Pro_16-inch_M4_Pro_or_Max_chip_Silver_PDP_Image_Position_1__COES.webp" alt="Premium ultrabook with retina display and powerful processor" />
       </div>
       <div class="item-details">
         <h2 class="item-title" id="product-11-title">Apple 2024 MacBook Pro Laptop</h2>
-        <div class="item-price" aria-label="Price $2199.00">$1629.00</div>
-        <button class="btn-add" type="button" aria-describedby="product-11-title">
+        <div class="item-price">$1629.00</div>
+        <button class="btn-add" type="button" aria-describedby="product-11-title" data-bs-toggle="modal" data-bs-target="#cartModal">
           <span class="material-icons" aria-hidden="true"></span>
           Add to Cart
         </button>
       </div>
     </article>
 
-    <article class="cart-item" role="group" aria-labelledby="product-12-title">
+    <article class="cart-item" role="group" ledby="product-12-title">
       <div class="item-image">
-        <img src="mqku3-01_1.jpg" alt="" />
+        <img src="/image/mqku3-01_1.jpg" alt="" />
       </div>
       <div class="item-details">
         <h2 class="item-title" id="product-12-title">Apple 2024 MacBook Air 13-inch</h2>
-        <div class="item-price" aria-label="Price $999.99">$899.00</div>
-        <button class="btn-add" type="button" aria-describedby="product-12-title">
+        <div class="item-price" >$899.00</div>
+        <button class="btn-add" type="button" aria-describedby="product-12-title" data-bs-toggle="modal" data-bs-target="#cartModal">
           <span class="material-icons" aria-hidden="true"></span>
           Add to Cart
         </button>
       </div>
     </article>
+
+
+
+
   </section>
-    <footer>
-  <div class="footer-column">
+<footer>
+   <div class="footer-column">
     <h3><i class="fa-solid fa-laptop"></i> Seven Store</h3>
   </div>
   <div class="footer-column">
@@ -277,7 +279,7 @@
     <h3>Contact Us</h3>
     <a href="#">Gmail</a>
     <a href="#">TikTok</a>
-    <a href="https://www.facebook.com/share/19tCdsAQuc/?mibextid=wwXIfr">Facebook Page</a>
+    <a href="https://www.facebook.com/share/1BLrmCpcJf/?mibextid=wwXIfr">Facebook Page</a>
     <a href="#">+855 97 6632 509</a>
   </div>
   <div class="footer-bottom">
@@ -287,17 +289,134 @@
         <a name="About"></a>
         <a name="Services"></a>
         <a name="Contact"></a>
+        <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="cartModalLabel">Order Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-7">
+            <form id="orderForm">
+              <div class="mb-3">
+                <label for="customerName" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="customerName" required>
+              </div>
+              <div class="mb-3">
+                <label for="location" class="form-label">Delivery Location</label>
+                <textarea class="form-control" id="location" rows="2" required></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="note" class="form-label">Special Notes</label>
+                <textarea class="form-control" id="note" rows="2"></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="paymentProof" class="form-label">Payment Screenshot</label>
+                <input type="file" class="form-control" id="paymentProof" accept="image/*" required>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit Order</button>
+            </form>
+          </div>
+          <div class="col-md-5">
+            <div class="payment-panel">
+              <p class="h6 mb-3">Payment Methods</p>
+              <div class="payment-container vertical">
+                <img class="payment" src="./Payment.jpg" alt="ABA QR" loading="lazy">
+                <!-- Add more QR images here if needed -->
+              </div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" ></script>
+<script>
+document.getElementById('orderForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const BOT_TOKEN = "8365721784:AAE6yKQ4ofOo5E8qOGCgZiC2JMi4U1KE5GQ";
+    const CHAT_ID = "7697535616";
+    
+    // Get form values
+    const name = document.getElementById('customerName').value;
+    const location = document.getElementById('location').value;
+    const note = document.getElementById('note').value;
+    const paymentFile = document.getElementById('paymentProof').files[0];
+    
+    // Get the product price from the clicked button's parent element
+    const productTitle = document.querySelector('#cartModal').getAttribute('data-product-title');
+    const productPrice = document.querySelector('#cartModal').getAttribute('data-product-price');
 
+    try {
+        // First send the text message
+        const textMessage = `
+🛒 New Order Received!
+------------------
+👤 Customer: ${name}
+📍 Location: ${location}
+🛍️ Product: ${productTitle}
+💰 Price: ${productPrice}
+📝 Notes: ${note}
+------------------`;
 
-        <script>
-  const menuToggle = document.getElementById('mobile-menu');
-  const navLinks = document.querySelector('.nav-links');
+        const textResponse = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                chat_id: CHAT_ID,
+                text: textMessage,
+                parse_mode: 'HTML'
+            })
+        });
 
-  menuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-  });
+        // Then send the payment proof image
+        if (paymentFile) {
+            const formData = new FormData();
+            formData.append('chat_id', CHAT_ID);
+            formData.append('photo', paymentFile);
+            formData.append('caption', '💳 Payment Proof');
+
+            const imageResponse = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto`, {
+                method: 'POST',
+                body: formData
+            });
+
+            if (!imageResponse.ok) {
+                throw new Error('Failed to send image');
+            }
+        }
+
+        alert('Order submitted successfully!');
+        const modal = bootstrap.Modal.getInstance(document.getElementById('cartModal'));
+        modal.hide();
+        this.reset();
+    } catch (error) {
+        console.error('Error:', error);
+        alert('There was an error submitting your order. Please try again.');
+    }
+});
+
+// Add click handlers to all "Add to Cart" buttons
+document.querySelectorAll('.btn-add').forEach(button => {
+    button.addEventListener('click', function() {
+        const article = this.closest('.cart-item');
+        const title = article.querySelector('.item-title').textContent;
+        const price = article.querySelector('.item-price').textContent;
+        
+        // Store product info in modal's data attributes
+        const modal = document.querySelector('#cartModal');
+        modal.setAttribute('data-product-title', title);
+        modal.setAttribute('data-product-price', price);
+    });
+});
 </script>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </body>
 </html>
